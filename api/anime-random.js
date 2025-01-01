@@ -2,7 +2,7 @@ const fs = require('fs');
 
 exports.config = {
     name: 'anime-random',
-    author: 'AceGerome',
+    author: 'lanxfrank',
     description: 'Fetch a random anime character from the list.',
     method: 'get',
     category: 'anime',
