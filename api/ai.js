@@ -10,7 +10,7 @@ const models = new Set([
 
 exports.config = {
   name: 'ai',
-  author: 'Lance Cochangco',
+  author: 'Lanxfrank',
   description: 'Advanced API for dynamic text generation using various AI models',
   method: 'get',
   category: 'ai',
