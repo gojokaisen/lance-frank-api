@@ -2,7 +2,7 @@ const fs = require('fs');
 
 exports.config = {
     name: 'anime-search',
-    author: 'AceGerome',
+    author: 'lanxfrank',
     description: 'Search for anime characters by ID, name, or movie.',
     method: 'get',
     category: 'anime',
