@@ -2,7 +2,7 @@ const axios = require('axios');
 
 exports.config = {
   name: 'ai-music',
-  author: 'AceGerome',
+  author: 'lanxfrnk',
   description: 'Generate music based on a given prompt using MusicHero AI',
   method: 'get',
   category: 'ai',
