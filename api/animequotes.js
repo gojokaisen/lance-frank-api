@@ -1,6 +1,6 @@
 exports.config = {
   name: 'animequotes',
-  author: 'AceGerome',
+  author: 'lan',
   description: 'Fetches a random anime quotes from the anime data',
   method: 'get',
   category: 'anime',
