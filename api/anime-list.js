@@ -2,7 +2,7 @@ const fs = require('fs');
 
 exports.config = {
     name: 'anime-list',
-    author: 'AceGerome',
+    author: 'lanxfrank',
     description: 'Fetch the list of anime characters with their details.(For Avatar Canvas)',
     method: 'get',
     category: 'anime',
