@@ -2,7 +2,7 @@ const dylux = require('api-dylux');
 
 exports.config = {
     name: 'wallpaper',
-    author: 'Lance Cochangco', // The creator's name here
+    author: 'Lance', // The creator's name here
     description: 'Search for wallpapers',
     method: 'get',
     category: 'search',
