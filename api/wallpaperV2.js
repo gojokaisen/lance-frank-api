@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 exports.config = {
     name: 'wallpaperV2',
-    author: 'Lance Cochangco',
+    author: 'Lan',
     description: 'Search for wallpapers on Best HD Wallpaper',
     method: 'get',
     category: 'search',
