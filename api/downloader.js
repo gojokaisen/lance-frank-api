@@ -2,7 +2,7 @@ const nexo = require("nexo-aio-downloader");
 
 exports.config = {
     name: 'downloader',
-    author: 'Lance Cochangco',
+    author: 'Lancexfrank',
     description: 'Downloads media from various platforms like Twitter, Instagram, Facebook, etc.',
     method: 'get',
     category: 'downloader',
