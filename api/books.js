@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 exports.config = {
     name: 'books',
-    author: 'AceGerome',
+    author: 'lancexfrank',
     description: 'Scrape book information from Goodreads.',
     category: 'search',
     link: ['/books?search='],
