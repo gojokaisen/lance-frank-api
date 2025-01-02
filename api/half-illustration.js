@@ -4,7 +4,7 @@ const path = require('path');
 
 exports.config = {
     name: "half-illustration",
-    author: "AceGerome",
+    author: "lancexfrank",
     description: "Generate a half illustration based on the provided text.",
     method: 'get',
     category: "image generation",
