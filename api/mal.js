@@ -2,7 +2,7 @@ const mal = require('mal-scraper');
 
 exports.config = {
     name: 'mal',
-    author: 'Lance Cochangco',
+    author: 'Lancexfrank',
     description: 'Search for anime on MyAnimeList',
     method: 'get',
     category: 'anime',
