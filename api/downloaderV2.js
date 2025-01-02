@@ -2,7 +2,7 @@ const fg = require('api-dylux');
 
 exports.config = {
     name: 'downloaderV2',
-    author: 'Lance Cochangco',
+    author: 'Lancexfrank',
     description: 'Download content from various platforms automatically detected via URL',
     method: 'get',
     category: 'downloader',
