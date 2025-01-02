@@ -12,7 +12,7 @@ const styles = [
 
 exports.config = {
   name: 'flux',
-  author: 'AceGerome',
+  author: 'lancexfrank',
   description: 'Generates a stylized image based on a prompt using various unique styles.',
   method: 'get',
   category: 'image generation',
