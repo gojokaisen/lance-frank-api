@@ -2,7 +2,7 @@ const axios = require('axios');
 
 exports.config = {
     name: "FLUX-pro",
-    author: "AceGerome",
+    author: "lancexfrank",
     description: "Generate an image using the FLUX model.",
     method: 'get',
     category: "image generation",
