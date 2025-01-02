@@ -1,12 +1,12 @@
 const axios = require('axios');
 
 exports.config = {
-    name: 'akuari-shorten',
-    author: 'AceGerome',
+    name: 'link-shortener',
+    author: 'lance',
     description: 'Shorten URLs using Akuari Shorten API',
     method: 'get',
     category: 'tools',
-    link: ['/akuari-shorten?url=']
+    link: ['/link-shortener?url=']
 };
 
 exports.initialize = async function ({ req, res }) {
