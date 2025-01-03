@@ -1,12 +1,13 @@
 const nexo = require("nexo-aio-downloader");
 
 exports.config = {
-    name: 'downloader',
-    author: 'Lancexfrank',
-    description: 'Downloads media from various platforms like Twitter, Instagram, Facebook, etc.',
-    method: 'get',
-    category: 'downloader',
-    link: ['/downloader']
+    name: "downloader",
+    author: "Lancexfrank",
+    description:
+        "Downloads media from various platforms like Twitter, Instagram, Facebook, etc.",
+    method: "get",
+    category: "downloader",
+    link: ["/downloader"]
 };
 
 // Supported platforms with regex patterns for flexibility
@@ -24,7 +25,9 @@ exports.initialize = async function ({ req, res }) {
         let url = req.query.url;
 
         if (!url) {
-            return res.status(400).json({ error: "Please add ?url=media_url_here" });
+            return res
+                .status(400)
+                .json({ error: "Please add ?url=media_url_here" });
         }
 
         // Normalize the URL: ensure it starts with https://
@@ -33,7 +36,7 @@ exports.initialize = async function ({ req, res }) {
         }
 
         // Detect platform by checking if the URL matches any supported platform regex pattern
-        let platform = Object.keys(supportedPlatforms).find(key => 
+        let platform = Object.keys(supportedPlatforms).find(key =>
             supportedPlatforms[key].test(url)
         );
 
@@ -43,22 +46,22 @@ exports.initialize = async function ({ req, res }) {
 
         let result;
         switch (platform) {
-            case 'twitter':
+            case "twitter":
                 result = await nexo.twitter(url);
                 break;
-            case 'instagram':
+            case "instagram":
                 result = await nexo.instagram(url);
                 break;
-            case 'facebook':
+            case "facebook":
                 result = await nexo.facebook(url);
                 break;
-            case 'tiktok':
+            case "tiktok":
                 result = await nexo.tiktok(url);
                 break;
-            case 'google-drive':
+            case "google-drive":
                 result = await nexo.googleDrive(url);
                 break;
-            case 'sfile':
+            case "sfile":
                 result = await nexo.sfile(url);
                 break;
             default:
